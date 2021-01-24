@@ -3,7 +3,8 @@
         <footer class="footer">
             <!-- This should be `0 items left` by default -->
             <span class="todo-count"
-                ><strong>{{ numTodos }}</strong> item left</span
+                ><strong>{{ numTodos - completedCount }}</strong> item
+                left</span
             >
             <!-- Remove this if you don't implement routing -->
             <ul class="filters">
